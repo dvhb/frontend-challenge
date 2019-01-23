@@ -4,8 +4,16 @@
   "private": true,
   "dependencies": {
     "antd": "^3.12.4",
+    "connected-react-router": "^4.5.0",
+    "history": "^4.7.2",
+    "lodash": "^4.17.11",
     "react": "^16.5.0",
-    "react-dom": "^16.5.0"
+    "react-dom": "^16.5.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-act": "^1.7.4",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-app-rewired start --scripts-version react-scripts-ts",
@@ -35,9 +43,13 @@
     "@storybook/addons": "^4.0.4",
     "@storybook/react": "^4.0.4",
     "@types/jest": "^23.3.2",
+    "@types/lodash": "^4.14.120",
     "@types/node": "^10.9.4",
     "@types/react": "^16.4.13",
     "@types/react-dom": "^16.0.7",
+    "@types/react-redux": "^6.0.9",
+    "@types/react-router": "^4.0.32",
+    "@types/react-router-dom": "^4.3.1",
     "husky": "^0.14.3",
     "lint-staged": "^7.2.2",
     "prettier": "^1.14.2",
